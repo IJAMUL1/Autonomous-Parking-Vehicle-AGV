@@ -15,6 +15,9 @@ This project involves using an Arduino UNO microcontroller to create a parking l
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
 - [Setup Instructions](#setup-instructions)
+- [Additional Notes](#additional-notes)
+- [Code Structure](#code-structure)
+- [Functionality](#functionality)
 - [Usage](#usage)
 - [Contributing](#contributing)
 
@@ -84,6 +87,3 @@ Ensure all components are properly connected and calibrated.
 Monitor the output using the serial monitor and LCD display.
 Test the robot's functionality in a controlled environment to ensure proper operation.
 
-## Contributing
-
-Include guidelines for contributing to the project, such as how to report bugs, submit patches, or suggest improvements. Mention any coding standards or conventions to follow.
