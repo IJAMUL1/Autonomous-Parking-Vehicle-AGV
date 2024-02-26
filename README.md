@@ -50,10 +50,9 @@ The hardware components required for the project, include:
 
 ## Software Requirements
 
-Specify all the software dependencies needed to run the project, including but not limited to:
 1. Arduino IDE: The Arduino Integrated Development Environment (IDE) is required to compile and upload the Arduino code to the microcontroller board.
 
-1. Arduino Libraries:
+2. Arduino Libraries:
     - QTRSensors library: Used for controlling the QTR Reflectance Sensor for line following.
     - NewPing library: Used for interfacing with the ultrasonic sensor for object detection.
     - Servo library: Used for controlling the continuous servo motors for movement.
