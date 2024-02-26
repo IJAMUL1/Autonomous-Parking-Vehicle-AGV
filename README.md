@@ -1,17 +1,17 @@
-# autonomous_parking_vehicle
+# Autonomous Parking Vehicle
 
-This project involves using an Arduino UNO microcontroller to create a parking lot robot capable of autonomously navigating and parking in the nearest available spot.By combining line following, ultrasonic sensing, and a search algorithm, the robot identifies and parks in the nearest open parking space, validated through extensive testing.
+This project involves using an Arduino UNO microcontroller to create a parking lot robot capable of autonomously navigating and parking in the nearest available spot. By combining line following, ultrasonic sensing, and a search algorithm, the robot identifies and parks in the nearest open parking space, validated through extensive testing.
 
-
-# Warehouse Layout
-![warehouse layout](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/f6ec4f6d-da96-4e24-85f9-ae792edc9d51)
+# Parking Lot Layout
+![parking_lot_layout](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/896fe77e-4570-4bf2-bc5a-13d0423bf5ed)
 
 # Robot Demo
-![Untitled video - Made with Clipchamp (1)](https://github.com/IJAMUL1/Warehouse-Inventory-Management-Robot/assets/60096099/c6173f7b-1845-4d30-968d-3258a48b0690)
+![Untitled video - Made with Clipchamp (6)](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/e307b82f-e207-4fdd-a5fa-0d75c333c798)
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Project Requirement](#project-requirements)
 - [Hardware Requirements](#hardware-requirements)
 - [Software Requirements](#software-requirements)
 - [Setup Instructions](#setup-instructions)
@@ -20,7 +20,15 @@ This project involves using an Arduino UNO microcontroller to create a parking l
 
 ## Introduction
 
-The project encompasses hardware integration, navigation, object identification, electrical connections, and control logic. It involves navigating a predefined map to assist warehouse management in widget identification. The project objectives include accurate line following, intersection detection, handling directional aids, managing widget stations, counting widgets, reaching the docking station, and displaying the total widget count. These objectives guide the robot's functionality.
+In this project, we address the challenge of designing an autonomous parking system capable of navigating a predefined path within a parking lot, detecting available parking spaces, and efficiently maneuvering to park in the first available spot. Our solution involves the use of an Arduino-based robot equipped with sensors to detect intersections, objects obstructing parking spaces, and indicators for successful parking. This documentation provides a comprehensive overview of the project's objectives, problem statement, scenario description, task requirements, deliverables, and additional resources for implementation. Whether you're a student, hobbyist, or enthusiast interested in autonomous robotics or tackling real-world challenges with Arduino, this documentation serves as a valuable resource to understand, replicate, and contribute to our project.
+
+## Project Requirements
+
+- Line Following Robot: The robot must accurately follow the path marked by black tape within the parking lot.
+- Intersection Indication: Indicate when traversing intersections using LEDs, buzzers, or LCD displays.
+- Object Detection: Detect objects obstructing parking spaces using a single ultrasonic sensor. Provide indication of object detection through LEDs, buzzers, or LCD displays.
+- Parking Functionality: Successfully park in the first available parking space detected.
+- Display of Occupied Spaces: Display the number of occupied parking spaces encountered before parking using LEDs, 7-segment LEDs, LCD displays, or similar.
 
 ## Hardware Requirements
 
