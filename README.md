@@ -25,19 +25,16 @@ In this project, we address the challenge of designing an autonomous parking sys
 ## Project Requirements
 
 - Line Following Robot: The robot must accurately follow the path marked by black tape within the parking lot.
-- Intersection Indication: Indicate when traversing intersections using LEDs, buzzers, or LCD displays.
-- Object Detection: Detect objects obstructing parking spaces using a single ultrasonic sensor. Provide indication of object detection through LEDs, buzzers, or LCD displays.
+- Intersection Indication: Indicate when traversing intersections using LEDs.
+- Object Detection: Detect objects obstructing parking spaces using a single ultrasonic sensor. Provide indication of object detection through LEDs and LCD displays.
 - Parking Functionality: Successfully park in the first available parking space detected.
-- Display of Occupied Spaces: Display the number of occupied parking spaces encountered before parking using LEDs, 7-segment LEDs, LCD displays, or similar.
+- Display of Occupied Spaces: Display the number of occupied parking spaces encountered before parking using LCD displays.
 
 ## Hardware Requirements
 
-List all the hardware components required for the project, including but not limited to:
+The hardware components required for the project, include:
 - Chassis and mechanical components
-- Raspberry Pi 3B
-- Raspberry PI Camera
-- Parallax Propeller microcontroller
-- Aruco Tag Markers
+- Arduino Uno
 - 2 x Continous Servo Motors
 - Pulolo Reflecance Sensor
 - 2 x Ultrasonic Sensors
