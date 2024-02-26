@@ -48,43 +48,41 @@ The hardware components required for the project, include:
 ## Software Requirements
 
 Specify all the software dependencies needed to run the project, including but not limited to:
-- Parallax Propeller Toolchain
-- SimpleIDE or PropellerIDE for development
-- Propeller C libraries (simpletools, servo, ping)
-- Raspbian OS
-- Python 3.9 installed on the Raspberry Pi
-- Python Library (OpenCv, Numpy)
-- RPi.GPIO library for controlling GPIO pins (RPi.GPIO)
+1. Arduino IDE: The Arduino Integrated Development Environment (IDE) is required to compile and upload the Arduino code to the microcontroller board.
+
+1. Arduino Libraries:
+    - QTRSensors library: Used for controlling the QTR Reflectance Sensor for line following.
+    - NewPing library: Used for interfacing with the ultrasonic sensor for object detection.
+    - Servo library: Used for controlling the continuous servo motors for movement.
+    - SoftwareSerial library: Used for communicating with the LCD display for output indication.
+    - Arduino Board Package: Ensure that the appropriate board package is installed in the Arduino IDE to support the microcontroller board you are using (e.g., Arduino Uno, Arduino Nano).
 
 ## Setup Instructions
-# Raspberry Pi Setup
-- Connect the camera module to the Raspberry Pi.
-- Install Python 3.x on the Raspberry Pi if not already installed.
-- Install OpenCV and NumPy libraries for Python on the Raspberry Pi.
-- Install the RPi.GPIO library for controlling GPIO pins.
-- Clone or download the project repository to the Raspberry Pi.
-- Connect the GPIO pins to external devices such as LEDs and motor drivers as per the circuit diagram provided.
-- Adjust the circuit connections and GPIO pin configurations in the code based on your use case.
+- Reflectance Sensor: The QTR Reflectance Sensor is used for line following. Calibration is performed to ensure accurate readings.
+- Ultrasonic Sensor: NewPing library is used to interface with the ultrasonic sensor for object detection.
+- Servo Motors: Servo library is utilized to control the continuous servo motors for movement.
+- LCD Display: SoftwareSerial library is employed to communicate with the LCD display for output indication.
 
-# Parallax Properller Setup
-- Connect the Parallax Propeller microcontroller to your computer.
-- Install the Parallax Propeller Toolchain and SimpleIDE or PropellerIDE.
-- Clone or download the project repository to local device.
-- Open the project in SimpleIDE or PropellerIDE.
-- Compile and upload the properller code to the Parallax Propeller microcontroller.
+## Additional Notes:
+Calibration of sensors is crucial for accurate readings and proper functionality.
+LED indicators are used for visual feedback, and LCD display provides additional output information.
+The system operates autonomously, following predefined rules and behaviors.
 
-# Integration
-- Connect raspberry pi to properller based on pin connection in code files respectively. 
+## Functionality:
+- Line Following: The robot follows a predefined path marked by black tape using the QTR Reflectance Sensor.
+- Intersection Detection: Intersections are detected using sensor readings, and appropriate actions are taken at each intersection.
+- Object Detection: Objects obstructing parking spaces are detected using the ultrasonic sensor.
+- Parking Maneuvers: The robot parks in the first available parking space, considering obstacles and following specific parking rules.
 
-## Usage
+## Code Structure:
+The code consists of setup and loop functions, where the main logic for sensor readings, intersection handling, and parking maneuvers is implemented.
+Various functions are defined for specific actions such as line following, turning, parking, and obstacle indication.
 
-Once the code is uploaded to the microcontroller and the hardware is assembled, follow these steps to use the robot:
-
-- Power on the robot.
-- The robot will perform initialization routines, including sensor calibration.
-- Depending on the mode of operation, the robot will perform tasks such as line following, obstacle avoidance, or intersection handling.
-- Monitor the status LEDs to understand the system's behavior.
-- Refer to the code documentation for specific functionality and control options.
+## Usage:
+Upload the provided Arduino code to the Arduino board.
+Ensure all components are properly connected and calibrated.
+Monitor the output using the serial monitor and LCD display.
+Test the robot's functionality in a controlled environment to ensure proper operation.
 
 ## Contributing
 
