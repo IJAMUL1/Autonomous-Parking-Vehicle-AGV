@@ -1,4 +1,4 @@
-# Autonomous Parking Vehicle
+# Autonomous Parking Vehicle (AGV)
 
 This project involves using an Arduino UNO microcontroller to create a parking lot robot capable of autonomously navigating and parking in the nearest available spot. By combining line following, ultrasonic sensing, and a search algorithm, the robot identifies and parks in the nearest open parking space, validated through extensive testing.
 
