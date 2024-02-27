@@ -6,7 +6,9 @@ This project involves using an Arduino UNO microcontroller to create a parking l
 ![parking_lot_layout](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/896fe77e-4570-4bf2-bc5a-13d0423bf5ed)
 
 # Robot Demo
-![Untitled video - Made with Clipchamp (6)](https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/e307b82f-e207-4fdd-a5fa-0d75c333c798)
+<p align="center">
+  <img src="https://github.com/IJAMUL1/Automated-Factory-Guided-Vehicle/assets/60096099/e307b82f-e207-4fdd-a5fa-0d75c333c798" alt="Your Image Description" width="600">
+</p>
 
 ## Table of Contents
 
